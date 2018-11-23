@@ -1,0 +1,42 @@
+img {
+    height: 35px;
+    width: 35px;
+}
+
+
+.valued-coin {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+
+    img {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 0;
+    }
+
+    span {
+        position: relative;
+        vertical-align: middle;
+        top: 15%;
+        font-weight: 600;
+    }
+
+
+    &.__large {
+        height: 40px;
+        width: 40px;
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+
+        span {
+            top: 23%;
+        }
+    }
+}

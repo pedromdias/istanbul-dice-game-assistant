@@ -1,0 +1,12 @@
+.game-info {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    .player-score {
+        margin-right: 20px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
